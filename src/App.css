@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+}
+.div-element{
+  display:flex;
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 1300px){
+      .div-element{
+        background-color: lightblue;
+        flex-direction: column;
+
+      }
+}
